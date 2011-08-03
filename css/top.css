@@ -15,9 +15,16 @@ h4 {
   margin: 0 0 0 20px;
   color: green; }
 
-pre {
+pre, blockquote {
   margin: 0 auto 10px auto;
-  width: 90%;
-  background: rgba(64, 255, 64, 0.3);
-  padding: 10px 20px;
   border-radius: 10px; }
+
+pre {
+  width: 90%;
+  padding: 10px 20px;
+  background: rgba(64, 255, 64, 0.3); }
+
+blockquote {
+  width: 95%;
+  padding: 5px 10px;
+  border: 2px dashed green; }
