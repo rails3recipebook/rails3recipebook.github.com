@@ -1,3 +1,23 @@
-body {
+#main {
+  width: 780px;
+  margin: 0px auto;
   background: white;
-}
+  font-size: 14px; }
+
+h2 {
+  background: rgba(64, 255, 64, 0.7);
+  padding: 5px; }
+
+h3 {
+  border-bottom: 2px solid rgba(64, 255, 64, 0.7); }
+
+h4 {
+  margin: 0 0 0 20px;
+  color: green; }
+
+pre {
+  margin: 0 auto 10px auto;
+  width: 90%;
+  background: rgba(64, 255, 64, 0.3);
+  padding: 10px 20px;
+  border-radius: 10px; }
