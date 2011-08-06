@@ -28,3 +28,7 @@ blockquote {
   width: 95%;
   padding: 5px 10px;
   border: 2px dashed green; }
+
+image {
+  float: right;
+  padding-left: 10px; }
