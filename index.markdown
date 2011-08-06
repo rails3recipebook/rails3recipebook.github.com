@@ -85,7 +85,7 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
 ご意見・誤記の報告等
 --------------------
 
-もし、「ここの記述は間違っているのでは」「ここはこうなるべきでは」などのご指摘等がある場合は、このレポジトリのissueで受け付けております。
+本書に記載されている内容に関して、「ここの記述は間違っているのでは」「ここはこうなるべきでは」などのご指摘等がある場合は、このレポジトリのissueで受け付けております。
 
 - ご指摘一覧 https://github.com/rails3recipebook/rails3recipebook.github.com/issues
 - 新規登録 https://github.com/rails3recipebook/rails3recipebook.github.com/issues/new
