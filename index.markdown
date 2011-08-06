@@ -31,7 +31,7 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
  </tr><tr>
   <th>出版日</th><td>2011年7月25日</td>
  </tr><tr>
-  <th>出版社紹介ページURL</th><td>http://www.sbcr.jp/products/4797363821.html</td>
+  <th>出版社紹介ページURL</th><td>[http://www.sbcr.jp/products/4797363821.html](http://www.sbcr.jp/products/4797363821.html)</td>
  </tr>
 </table>
 
