@@ -21,15 +21,15 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
  </tr><tr>
   <th>著者</th><td>高橋征義／松田明／諸橋恭介著</td>
  </tr><tr>
-  <th>サイズ種別</th><td>A5/2色</td>
+  <th>サイズ種別</th><td>A5/1色</td>
  </tr><tr>
   <th>ページ数</th><td>496ページ</td>
  </tr><tr>
-  <th>ISBN</th><td>978-4797363821</td>
+  <th>ISBN</th><td>978-4-7973-6382-1</td>
  </tr><tr>
-  <th>本体価格</th><td>2,00円(税込み2,940円)</td>
+  <th>本体価格</th><td>3,129円(税込)</td>
  </tr><tr>
-  <th>出版日</th><td>2011年7月25日</td>
+  <th>出版日</th><td>2011年7月22日</td>
  </tr><tr>
   <th>出版社紹介ページURL</th><td><a href="http://www.sbcr.jp/products/4797363821.html">http://www.sbcr.jp/products/4797363821.html</a></td>
  </tr>
