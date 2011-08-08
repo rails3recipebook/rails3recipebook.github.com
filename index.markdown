@@ -89,7 +89,7 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
 
 本書に記載されている内容に関して、「ここの記述は間違っているのでは」「ここはこうなるべきでは」といったご指摘等がある場合は、このレポジトリのissueで受け付けております。
 
-- ご指摘一覧 https://github.com/rails3recipebook/rails3recipebook.github.com/issues
-- 新規登録 https://github.com/rails3recipebook/rails3recipebook.github.com/issues/new
+- ご指摘一覧 [https://github.com/rails3recipebook/rails3recipebook.github.com/issues](https://github.com/rails3recipebook/rails3recipebook.github.com/issues)
+- 新規登録 [https://github.com/rails3recipebook/rails3recipebook.github.com/issues/new](https://github.com/rails3recipebook/rails3recipebook.github.com/issues/new)
 
 上記URLよりご記入いただければ幸いです。
