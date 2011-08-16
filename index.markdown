@@ -40,7 +40,7 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
 正誤表(初版に含まれるもの)
 ---------------------------
 
-### Recipe 021 `default_url_options`と`include`の順が逆(p.43)
+### &#x2713; Recipe 021 `default_url_options`と`include`の順が逆(p.43)
 
 一つ目のコードリスト `app/models/social_service.rb` に誤りがありました。
 `default_url_options`を設定する前に、無名モジュールを`include`する必要があります。
@@ -59,7 +59,7 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
       include Rails.application.routes.url_helpers
     end
 
-### Recipe 036 `params`で取得するパラメータの出力例が間違っている(p.74)
+### &#x2713; Recipe 036 `params`で取得するパラメータの出力例が間違っている(p.74)
 
 最後のコードリストの、`params`メソッドの出力例が間違っています。
 
@@ -71,7 +71,7 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
 
     params #=> { "args"=>["value_1", "v2", "v3"], "commit"=>"commit" }
 
-### Recipe 171 `xhr`メソッドの引数の説明で数が間違っている(p.398)
+### &#x2713; Recipe 171 `xhr`メソッドの引数の説明で数が間違っている(p.398)
 
 二つ目のコードリストの前の説明文にて、`xhr`メソッドの引数が間違っています。
 
