@@ -71,6 +71,18 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
 
     params #=> { "args"=>["value_1", "v2", "v3"], "commit"=>"commit" }
 
+### &#x2713; Recipe 058 コードリスト中のORDER方向指定が小文字になっている(p.123)
+
+ページ先頭のコードリスト中で、ORDERの方向を指定する```ASC```や```DESC```が小文字になっています。
+
+#### 正
+
+    Entry.order("page_view_count DESC").order("updated_at ASC")
+
+#### 誤
+
+    Entry.order("page_view_count desc").order("updated_at asc")
+
 ### &#x2713; Recipe 171 `xhr`メソッドの引数の説明で数が間違っている(p.398)
 
 二つ目のコードリストの前の説明文にて、`xhr`メソッドの引数が間違っています。
