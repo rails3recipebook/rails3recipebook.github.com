@@ -93,7 +93,7 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
 
 #### 誤
 
-> Blogモデルではhas_many :comments, :through => :blogsと宣言しているので、Blog#commentsなどのメソッドが追加されます。
+> Blogモデルではhas\_many :comments, :through => :blogsと宣言しているので、Blog#commentsなどのメソッドが追加されます。
 
 ### Recipe 085 楽観的ロックの例外名が間違っている(p.183)
 
@@ -168,6 +168,32 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
 #### 誤
 
 > 第2引数にHTTPメソッド、第3引数にアクション名を指定します。クエリパラメータがある場合、第4引数として指定します。
+
+### Recipe 131 HTML5タグの出力例が間違っている(p.302)
+
+タグ出力メソッドの出力例に間違いがあります。
+
+#### 正
+
+    <%= number_field_tag 'volume', 10, :min=>"0", :max=>"30", :step=>"5" %>
+    #=> <input id="volume" max="30" min="0" name="foo" step="5" type="number"
+         value= "10" />
+        <br />
+    <%= range_field_tag 'volume2', 10, :min=>"0", :max=>"30", :step=>"5" %>
+    #=> <input id="volume2" max="30" min="0" name="foo2" step="5" type="range"
+         value="10" />
+
+
+#### 誤
+
+    <%= number_field_tag 'volume', 10, :min=>"0", :max=>"30", :step=>"5" %>
+    #=> <input id="foo" max="30" min="0" name="foo" step="5" type="number"
+         value= "10" />
+        <br />
+    <%= range_field_tag 'volume2', 10, :min=>"0", :max=>"30", :step=>"5" %>
+    #=> <input id="foo2" max="30" min="0" name="foo2" step="5" type="range"
+         value="10" />
+
 
 ### Recipe 186 説明の文章が間違っている(p.449)
 
