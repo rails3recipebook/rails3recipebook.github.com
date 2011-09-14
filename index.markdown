@@ -40,6 +40,18 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
 正誤表(初版に含まれるもの)
 ---------------------------
 
+### Recipe 001 rvmインストール方法の間違い
+
+インストール用のコードに誤りがあり、必要なスペースが落ちてしまっていました。
+
+#### 正
+
+    bash < <(curl -s https://rvm.beginrescueend.com/install/rvm)
+
+#### 誤
+
+    bash <<(curl -s https://rvm.beginrescueend.com/install/rvm)
+
 ### Recipe 021 `default_url_options`と`include`の順が逆(p.43)
 
 一つ目のコードリスト `app/models/social_service.rb` に誤りがありました。
