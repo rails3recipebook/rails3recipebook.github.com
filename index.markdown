@@ -107,6 +107,33 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
 
     ActiveRecord::SlateObjectError
 
+### Recipe 112 保存済みオブジェクトに対応するフォームのmethod属性が間違っている(p.257)
+
+保存済みオブジェクトに対応するフォームの```method```属性が```put```になると説明されていますが、誤りです。
+
+#### 正
+
+> &lt;form&gt;タグの```action```属性が「/blogs/モデルのID」になり、HTTPメソッドを```put```に上書きするため```_method```というhiddenフィールドが生成されます。
+
+    <form accept-charset="UTF-8" action="/blogs/2"
+        class="edit_blog" id="edit_blog_2" method="post">
+        <div style="margin:0;padding:0;display:inline">
+          …（略）
+          <input name="_method" type="hidden" value="put" />
+          …（略）
+        </div>
+    …（略）
+    </form>
+
+#### 誤
+
+> &lt;form&gt;タグのaction 属性が「/blogs/モデルのID」、method属性が「put」になります。
+
+    <form accept-charset="UTF-8" action="/blogs/2"
+        class="edit_blog" id="edit_blog_2" method="post">
+    …（略）
+    </form>
+
 ### Recipe 171 `xhr`メソッドの引数の説明で数が間違っている(p.398)
 
 二つ目のコードリストの前の説明文にて、`xhr`メソッドの引数が間違っています。
