@@ -95,6 +95,18 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
 
 > Blogモデルではhas_many :comments, :through => :blogsと宣言しているので、Blog#commentsなどのメソッドが追加されます。
 
+### Recipe 085 楽観的ロックの例外名が間違っている(p.183)
+
+楽観的ロックにて競合した場合に発生する例外の名前が間違っています。
+
+#### 正
+
+    ActiveRecord::StaleObjectError
+
+#### 誤
+
+    ActiveRecord::SlateObjectError
+
 ### Recipe 171 `xhr`メソッドの引数の説明で数が間違っている(p.398)
 
 二つ目のコードリストの前の説明文にて、`xhr`メソッドの引数が間違っています。
