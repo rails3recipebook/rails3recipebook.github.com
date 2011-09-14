@@ -134,6 +134,29 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
     …（略）
     </form>
 
+### Recipe 119 先頭のコードリストの例で、結果が出力されない(p.276)
+
+先頭のリストのコードが、結果が出力されない問題があったり、Railsからの警告がでる書式であったりします。```form_for```メソッド、```collection_select```メソッドの両方の例で```<%= %>```であるべきところが```<% %>```になっています。
+
+#### 正
+
+    <%= form_for @entry do |f| %>
+      # モデルオブジェクトCategoryを選択対象とするドロップダウンリストを
+      # 生成する
+      <%= f.collection_select(:category_id,
+                             Category.all, :id, :name) %>
+    <% end %>
+
+#### 誤
+
+    <% form_for @entry do |f| %>
+      # モデルオブジェクトCategoryを選択対象とするドロップダウンリストを
+      # 生成する
+      <% f.collection_select(:category_id,
+                             Category.all, :id, :name) %>
+    <% end %>
+
+
 ### Recipe 171 `xhr`メソッドの引数の説明で数が間違っている(p.398)
 
 二つ目のコードリストの前の説明文にて、`xhr`メソッドの引数が間違っています。
