@@ -83,6 +83,18 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
 
     Entry.order("page_view_count desc").order("updated_at asc")
 
+### Recipe 076 「has\_many :through関連でできること」の説明が間違っている(p.158)
+
+「has_many :through関連でできること」で定義されるメソッドの表の直後の説明が間違っています。
+
+#### 正
+
+> Blogモデルではhas_many :comments, :through => :entriesと宣言しているので、Blog#commentsなどのメソッドが追加されます。
+
+#### 誤
+
+> Blogモデルではhas_many :comments, :through => :blogsと宣言しているので、Blog#commentsなどのメソッドが追加されます。
+
 ### Recipe 171 `xhr`メソッドの引数の説明で数が間違っている(p.398)
 
 二つ目のコードリストの前の説明文にて、`xhr`メソッドの引数が間違っています。
