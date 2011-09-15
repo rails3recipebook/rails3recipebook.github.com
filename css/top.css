@@ -10,7 +10,8 @@ h2 {
   padding: 5px; }
 
 h3 {
-  border-bottom: 2px solid rgba(64, 255, 64, 0.7); }
+  border-bottom: 2px solid rgba(64, 255, 64, 0.7);
+  margin-top: 30px; }
 
 h3:before {
   content: "\2713\A";
