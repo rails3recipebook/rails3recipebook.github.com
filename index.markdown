@@ -52,6 +52,18 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
 
     bash <<(curl -s https://rvm.beginrescueend.com/install/rvm)
 
+### Recipe 005 generateの綴りに間違いがある(p.13)
+
+コマンド入力例のgenerateの綴りに間違いがあります。
+
+#### 正
+
+    $ rails generate scaffold モデル名 カラム名と型の並び
+
+#### 誤
+
+    $ rails genarate scaffold モデル名 カラム名と型の並び
+
 ### Recipe 021 `default_url_options`と`include`の順が逆(p.43)
 
 一つ目のコードリスト `app/models/social_service.rb` に誤りがありました。
@@ -70,6 +82,18 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
       self.default_url_options = {:host => 'www.example.com'}
       include Rails.application.routes.url_helpers
     end
+
+### Recipe 029 ハッシュが1.9記法になっている（p.62)
+
+コードリストのハッシュが、Ruby 1.9系でないと使えない記法になっています。Ruby 1.8系でも1.9系でも使える記法にします。
+
+#### 正
+
+    skip_before_filter :authenticate, :only => %w[new create]
+
+#### 誤
+
+    skip_before_filter :authenticate, only: %w[new create]
 
 ### Recipe 036 `params`で取得するパラメータの出力例が間違っている(p.74)
 
