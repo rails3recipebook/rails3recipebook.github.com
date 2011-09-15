@@ -188,11 +188,11 @@ Ruby on Railsの定番リファレンスとして好評を博したレシピブ�
 #### 正
 
     <%= number_field_tag 'volume', 10, :min=>"0", :max=>"30", :step=>"5" %>
-    #=> <input id="volume" max="30" min="0" name="foo" step="5" type="number"
+    #=> <input id="volume" max="30" min="0" name="volume" step="5" type="number"
          value= "10" />
         <br />
     <%= range_field_tag 'volume2', 10, :min=>"0", :max=>"30", :step=>"5" %>
-    #=> <input id="volume2" max="30" min="0" name="foo2" step="5" type="range"
+    #=> <input id="volume2" max="30" min="0" name="volume2" step="5" type="range"
          value="10" />
 
 
